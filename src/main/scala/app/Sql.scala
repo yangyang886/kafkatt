@@ -1,3 +1,4 @@
+
 package app
 
 import org.apache.spark.sql.SparkSession
@@ -18,24 +19,21 @@ def main(args:Array[String]): Unit ={
 
   import spark.implicits._
 
-  //val df = spark.read.option("header","true").csv("src/main/resources/test.csv")
-  //val caseClassDS = Seq(Person("Andy", 32)).toDS()
 
-  //caseClassDS.show()
-  //val df = spark.read.json("src/main/resources/test.json")
-  //df.show()
-  // Create DataSet representing the stream of input lines from kafka
-  val lines = spark
-    .readStream
-    .format("kafka")
-    .option("kafka.bootstrap.servers", "")
-    .option("", "")
-    .load()
-    .selectExpr("CAST(value AS STRING)")
-    .as[String]
+ /* val caseClassDS = Seq(Person("Andy", 32)).toDS()
 
+  caseClassDS.show()
+*/
+  // The inferred schema can be visualized using the printSchema() method
+  val path = "src/main/resources/person.json"
 
-  spark.stop()
+  val peopleDF = spark.read.json(path)
+
+  // The inferred schema can be visualized using the printSchema() method
+  peopleDF.printSchema()
+
+  peopleDF.select("b.1").show()
 }
 
 }
+

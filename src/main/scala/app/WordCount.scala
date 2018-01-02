@@ -2,7 +2,7 @@ package app
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object App {
+object WordCount {
    def main(args:Array[String]): Unit ={
      /**
        * 1.运行配置信息setMaster  url local
