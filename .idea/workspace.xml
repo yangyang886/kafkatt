@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea825a6-8442-4611-87e2-1869141288f2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/app/LessonStudent.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/kafka.iml" afterPath="$PROJECT_DIR$/kafka.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/app/Sql.scala" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -495,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514891073879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kkkkk">
+      <created>1514975728272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514975728273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -543,7 +545,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tfrom_json&#10;explode" />
-    <option name="LAST_COMMIT_MESSAGE" value="tfrom_json&#10;explode" />
+    <MESSAGE value="kkkkk" />
+    <option name="LAST_COMMIT_MESSAGE" value="kkkkk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
